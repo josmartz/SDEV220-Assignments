@@ -13,7 +13,7 @@ while True:
     
     if gpa >= 3.5:
         print(name + " has made the Dean's List! ")
-    if gpa >= 2.25:
+    if gpa >= 3.25:
         print(name + " has made the Honor Roll! ")
     if input("Another Student? [Y to continue]: ").upper() != "Y":
         quit()
